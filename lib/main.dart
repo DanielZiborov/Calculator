@@ -34,12 +34,12 @@ class _CalculatorState extends State<Calculator> {
       backgroundColor: btnColor, 
       foregroundColor: Colors.blue,
       shape: const CircleBorder(), 
-      padding: const EdgeInsets.all(20), 
+      padding: const EdgeInsets.all(10), 
     ),
     child: Text(
       btnTxt,
       style: TextStyle(
-        fontSize: 35,
+        fontSize: 30,
         color: txtColor
       ),
     )
@@ -73,7 +73,7 @@ class _CalculatorState extends State<Calculator> {
                     textAlign: TextAlign.left,
                     style:  const TextStyle(
                       color: Colors.white,
-                      fontSize: 100
+                      fontSize: 70,
                     ),
             
                   ),
@@ -142,7 +142,7 @@ class _CalculatorState extends State<Calculator> {
                   child:  const Text(
                     '0',
                     style: TextStyle(
-                      fontSize: 35,
+                      fontSize: 26,
                       color: Colors.white,
                     )
                   ),
